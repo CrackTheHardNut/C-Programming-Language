@@ -4,7 +4,7 @@ int htoi(char s[]){
     // n represents the final int value to return
     int digit, i, inhex, n;
     
-    // deal with '0x' or 'OX'
+    // deal with '0x' or '0X'
     i = 0;
     if(s[i] == '0'){
         i++;
